@@ -1,0 +1,93 @@
+.dev-slider-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.dev-slider-container img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.slide {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slide.active {
+  display: inline-block;
+}
+
+/* =======================START CAROUSEL INDICATORS STYLE============================== */
+.indicator-parent {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.indicator-parent {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.indicator-parent li.dev-indicator {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: rgb(196, 196, 196);
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.indicator-parent li.dev-indicator.active {
+  background-color: rgb(104, 104, 104);
+}
+
+.indicator-block {
+  display: inline-block;
+  visibility: visible;
+}
+
+.indicator-none {
+  display: none;
+  visibility: hidden;
+}
+/* =======================END OF CAROUSEL INDICATORS STYLE============================== */
+
+/* ==============START CAROUSEL PREV AND NEXT ARROWS STYLE================ */
+.dev-slider-arrows-parent {
+  max-width: 100%;
+  width: 100%;
+}
+
+button.dev-prev-btn {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+button.dev-next-btn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(50%);
+}
+/* ==============END OF CAROUSEL PREV AND NEXT ARROWS STYLE================ */
