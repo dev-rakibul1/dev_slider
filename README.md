@@ -2,7 +2,7 @@
 
 ## Demo
 
-- [Demo](https://dev-rakibul1.github.io/dev-slider/)
+- [Demo](https://dev-rakibul1.github.io/dev_slider/)
 
 ## Dev slider installing process
 
